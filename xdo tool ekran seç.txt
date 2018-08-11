@@ -1,0 +1,10 @@
+xdotool mousemove 500 500
+xdotool keydown Pointer_Button1
+xdotool mousemove_relative 0 100
+xdotool keyup Pointer_Button1
+sleep 1
+
+
+veya tek satır
+
+xdotool mousemove 500 500 keydown Pointer_Button1 mousemove_relative 0 100 keyup Pointer_Button1 sleep 1
